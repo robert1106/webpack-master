@@ -13,13 +13,11 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"]
-    },
-    "noEmit": true
+    }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    "../../node_modules/app/types/**/*.d.ts"
   ],
   "exclude": [
     "node_modules"
